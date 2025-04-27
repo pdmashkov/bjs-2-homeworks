@@ -24,7 +24,7 @@ function cachingDecoratorNew(func) {
     }
 }
 
-//Задача № 2
+//Задача № 2 
 function debounceDecoratorNew(func, delay) {
     let timeoutId;
     let isTrottled = false;
